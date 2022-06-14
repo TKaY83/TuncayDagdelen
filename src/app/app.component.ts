@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
 
   images = ['1.jpg', '2.jpg', '3.jpg'];
+  headlines = ['Bring engineering to the next LvL', 'Born to code', 'Code diver'];
   currentImage = 0;
   showImage = true;
 
@@ -25,7 +26,7 @@ export class AppComponent implements OnInit {
 
       setTimeout(() => {
         this.showImage = true;
-      }, 5);
+      }, 10);
     }, 8000);
     
   }
